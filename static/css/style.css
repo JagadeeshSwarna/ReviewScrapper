@@ -1,3 +1,4 @@
+
 body {
   background-color: #91ced4;
 }
@@ -81,7 +82,7 @@ table tr:nth-child(2n+1) {
     content: '';
     display: block;
     left: 0;
-    position: absolute;
+    position: absolute,fill;
   }
   td:nth-child(2):before {
     content: 'Name:';
